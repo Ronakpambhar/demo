@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="px-4 py-2 border-bottom">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link c_info" href="#"><span class="c_icon"><img src="images/call.svg"></span>+91 98943
+                    60205</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link c_info" href="#"><span class="c_icon"><img
+                            src="images/mail.svg"></span>sales@rapidevcharge.com</a>
+            </li>
+            <div class="social ml-auto">
+                <li class="nav-item">
+                    <a href="" class="nav-link s_item"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link s_item"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link s_item"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link s_item"><i class="fab fa-whatsapp"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link s_item"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link s_item"><i class="fab fa-youtube"></i></a>
+                </li>
+            </div>
+        </ul>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg align-items-center shadow-lg top-nav " id="myHeader">
+        <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon m-screen-1" for="menu-btn"><span class="navicon"></span></label>
+        <div class="collapse navbar-collapse justify-content-center menu" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="product.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Solutions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Resources</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact-us.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <!-- <div class="justify-content-end" id="navbarNav"> -->
+        <ul class="navbar-nav m_screen">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Locate Charger</a>
+            </li>
+            <li class="nav-item">
+                <a onclick="document.getElementById('id01').style.display='block'" class="nav-link">Login</a>
+            </li>
+            <div id="id01" class="modal">
+                <form class="modal-content animate container" action="/action_page.php" method="post">
+                  <div class="logo">
+                      <img src="images/logo.png">
+                  </div>
+                  <span onclick="document.getElementById('id01').style.display='none'" class="closebtn" title="Close Modal">&times;</span> 
+                  
+                    <label for="uname"><b class="usname">Username</b></label>
+                    <input type="text" class="loginp"  placeholder="Enter Username" name="uname" required>
+              
+                    <label for="psw"><b class="usname">Password</b></label>
+                    <input type="password"  class="loginp" placeholder="Enter Password" name="psw" required>
+                      
+                    <button class="lbutton read-more" type="submit">Login</button>
+                    <label>
+                      <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                      <a href="index.html" class="nav-link font-weight-bold">Forgot password?</a>
+                      <p>Not a member? <a class="nav-link font-weight-bold" href="#">Sign Up</a></p>
+                </form>
+            </div>
+        </ul>
+        <!-- </div> -->
+    </nav>
+
+    <section class="bg">
+        <div class="container-fluid">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-xl-6 col-md-7 col-12">
+                    <div class="bg_contain">
+                        <h1>Revolutionizing the
+                            technology of charging </h1>
+                        <p>Enabling drivers to Charge much Faster, much Safer using Central Management System (CMS) &
+                            Smart Charging Management Tool (SCMT)</p>
+                        <button class="charge">Get Charging</button>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-5 col-12 text-right p-0 cbg">
+                    <img src="images/1.png" class="img-fluid ml-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product">
+        <div class="container">
+            <h1>Products</h1>
+            <div class="line"></div>
+            <div class="row justify-content-between align-items-center ped">
+                <div class="col-lg-7 col-md-6 product-item">
+                    <h2>Commercial Chargers</h2>
+                    <p>Electric Vehicle Charge Points will become the "norm" at commercial premises. Set your premises apart from the competition to attract the best clients, employees and customers.</p>
+                    <button class="read-more">Read More</button>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <img src="images/commercial.png" class="img-fluid">
+                </div>
+            </div>
+            <div class="row justify-content-between align-items-center ped">
+                <div class="col-lg-4 col-md-6  order-md-1 order-2">
+                    <img src="images/residential.png" class="img-fluid">
+                </div>
+                <div class="col-lg-7 col-md-6 product-item order-md-2 order-1">
+                    <h2>Residential Chargers</h2>
+                    <p>Electric Vehicle Charge Points will become the "norm" at commercial premises. Set your premises apart from the competition to attract the best clients, employees and customers.</p>
+                    <button class="read-more">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="solution ped">
+        <div class="s_head">
+            <h1>Solutions</h1>
+        <div class="line"></div>
+        <p>RapidEVChargE charging stations are designed using cutting-edge hardware technology to be safe and reliable, while offering drivers a user-friendly, premium charging experience. We rigorously test all our products to ensure they are rugged and built to withstand the elements.</p>
+        <p>RapidEVChargE stations are part of a complete solution that includes cloud based software with features and plans for every industry and world-class service and maintenance.</p>
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-center s_desktop">
+                <div class="col-lg-4 col-6 order-2 order-lg-1">
+                    <div class="card">
+                        <h2><span>1</span>End Users</h2>
+                        <p>Find a Place to Charge - Search by location and charging speed.</p>
+                    </div>
+                    <div class="card f-card-3">
+                        <h2><span>3</span>Community Charging</h2>
+                        <p>Offer EV Charging to Your Residents; Meet the Amendme-
+                            nts in Model Building</p>
+                    </div>
+                    <div class="card">
+                        <h2><span>5</span>Public Charging</h2>
+                        <p>We offer safe and rapid charging solutions suitable for public charging stations.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 order-1 order-lg-2"><img src="images/solution.png" class="img-fluid"></div>
+                <div class="col-lg-4 col-6 order-3">
+                    <div class="card">
+                        <h2><span>2</span>Private Charging</h2>
+                        <p>Multiple options to charge at the convenience of your home.</p>
+                    </div>
+                    <div class="card f-card-4">
+                        <h2><span>4</span>Commercial Charging</h2>
+                        <p>Attract Customers Who Stay Longer and Spend More; Shoppers Expect EV Charging</p>
+                    </div>
+                    <div class="card">
+                        <h2><span>6</span>Corporate Charging</h2>
+                        <p>Promote Employee Productivity; Provide the Convenience of Charging at Work</p>
+                    </div>
+                </div>
+                <div class="col-12 order-4">
+                    <div class="card">
+                        <h2><span>7</span>Fleet Charging</h2>
+                        <p>Smarter Fleet Management - Command Your Fleet, Control Your Energy Management.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center s-mobile">
+                <div class="col-12">
+                    <div class="card">
+                        <h2><span>1</span>End Users</h2>
+                        <p>Find a Place to Charge - Search by location and charging speed.</p>
+                    </div>
+                    <div class="card">
+                        <h2><span>2</span>Private Charging</h2>
+                        <p>Multiple options to charge at the convenience of your home.</p>
+                    </div>
+                    <div class="card">
+                        <h2><span>3</span>Community Charging</h2>
+                        <p>Offer EV Charging to Your Residents; Meet the Amendme-
+                            nts in Model Building</p>
+                    </div>
+                    <div class="card">
+                        <h2><span>4</span>Commercial Charging</h2>
+                        <p>Attract Customers Who Stay Longer and Spend More; Shoppers Expect EV Charging</p>
+                    </div>
+                    <div class="card">
+                        <h2><span>5</span>Public Charging</h2>
+                        <p>We offer safe and rapid charging solutions suitable for public charging stations.</p>
+                    </div>
+                    <div class="card">
+                        <h2><span>6</span>Corporate Charging</h2>
+                        <p>Promote Employee Productivity; Provide the Convenience of Charging at Work</p>
+                    </div>
+                    <div class="card">
+                        <h2><span>7</span>Fleet Charging</h2>
+                        <p>Smarter Fleet Management - Command Your Fleet, Control Your Energy Management.</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- card head ane paragraph feravava -->
+    <section>
+        <div class="maincloud ped">
+            <h1><span class="cl_green">Cloud Based Charging</span> Management System</h1>
+        <div class="line"></div>
+        </div>
+        <div class="cloud">
+          <div class="container">
+              <div class="row justify-content-center">
+                  <div class="col-lg-10 col-12">
+                    <img src="images/cloud.png" class="img-fluid">
+                  </div>
+              </div>
+          </div>
+        </div> 
+    </section>
+    <section class="central ped">
+        <h1><span class="cl_green">Central</span> Management System</h1>
+        <div class="line"></div>
+        <p>FENFEO Central Management System (CMS) is an end-to-end smart EV Charging Management Software Tool. The architecture of this application is built on a robust technology stack with the following key architectural features</p>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-12 my-4">
+                    <img src="images/central.png" class="img-fluid">
+                </div>
+                <div class="col-md-6 col-12 my-4">
+                    <ul>
+                        <li>Cloud native application capable of running in variety of cloud platforms</li>
+                        <li>Developed using a Java cluster</li>
+                        <li>Highly available & Redundancy</li>
+                        <li>Secured using modern protocols</li>
+                        <li>High throughput and low latency</li>
+                        <li>Integrates using modern protocols and formats</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <button class="read-more text-center">Read More</button>
+    </section>
+
+<section class="smart_charge">
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-7 col-12 order-2 order-lg-1 txt">
+                   <p>Smart Charging Management Tool (SCMT) is the heart of our smart EV charging product suite; seamlessly integrating the remote user experience and the Electric Vehicle Supply Equipment (EVSE).You plan and manage charging using our digital platform with a click of a button or a tap.</p>
+                   <p>Our smart app is available on your Android or iOS devices. We also offer our smart app capabilities over web / supported browsers such as Chrome, Internet Explorer, Mozilla Firefox   </p>
+                   <button class="read-more">Read More</button>
+                </div>
+               <div class="col-lg-5 col-12 order-1 order-lg-2 text-center"><img src="images/smart_charge.png" class="img-fluid"></div>
+           </div>
+       </div>
+</section>
+
+
+    <section >
+        <div class="container ped">
+            <div class="row align-items-center justify-content-between vision">
+                <div class="col-md-5 order-md-1 order-2">
+                    <img src="images/vision.svg" class="img-fluid">
+                </div>
+                <div class="col-lg-6 col-md-7  order-md-2 order-1">
+                    <div class="vision-title"> 
+                        <h1>Our <span class="cl_green">Vision</span></h1>
+                    <div class="line"></div>
+                    </div>
+                    <p>Our Vision is serving the need of EVOLUTION IN TECHNOLOGY throughout the country. We value our customers and work hard to ensure their complete satisfaction by offering long-lasting customer relationships & high ethical business standards to become one of the most respected establishment.</p>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-between ped mission">
+                <div class="col-lg-6 col-md-7">
+                    <div class="mission-title"> 
+                        <h1>Our <span class="cl_green">Mission</span></h1>
+                        <div class="line"></div>
+                    </div>
+                    <p>Our Mission is to identify, understand and deliver the market needs with new and better ways to provide great service, high quality, quick turnaround and low prices technology</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="images/mission.svg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="charge_point">
+        <div class="charge_point_wrapp">
+            <div class="row justify-content-around align-items-center text-center">
+                <div class="col-xl-6 col-md-12 mapb my-4">
+                    <img src="images/map.png" class="img-fluid map">
+                </div>
+                <div class="col-xl-5 col-md-7 col-12 my-4">
+                    <h1>Know public <br> <span class="cl_green">charging points</span> in your smartphone app</h1>                   
+                    <div class="btns">
+                        <button><img src="images/googleplay .png" alt=""></button>
+                        <button><img src="images/appstore.png" alt=""></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="press ped">
+        <h1>Press <span class="cl_green">Release</span></h1>
+        <div class="line"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="newsbox">
+                        <img class="news-img" src="images/press-1.jpg">
+                        <!-- <div class="news-details"> -->
+                            <h6>This year more than $5 billion was saved on fuel</h6>
+                            <p>Lorem ipsum is  dolor sit amet,
+                                csectetur adipiscing elit, dolore smod
+                                tempor incididunt ut labore etc....</p>
+                            <button class="read-more text-center">Read More</button>
+                        <!-- </div> -->
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="newsbox">
+                        <img class="news-img" src="images/press-2.jpg">
+                        <!-- <div class="news-details"> -->
+                            <h6>Impacts of Usage of Electric Vehicles</h6>
+                            <p>Lorem ipsum is  dolor sit amet,
+                                csectetur adipiscing elit, dolore smod
+                                tempor incididunt ut labore etc....</p>
+                            <button class="read-more text-center">Read More</button>
+                        <!-- </div> -->
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="newsbox">
+                        <img class="news-img" src="images/press-3.png">
+                        <!-- <div class="news-details"> -->
+                            <h6>The rise of Electric Cars</h6>
+                            <p>Lorem ipsum is  dolor sit amet,
+                                csectetur adipiscing elit, dolore smod
+                                tempor incididunt ut labore etc....</p>
+                            <button class="read-more text-center news_btn">Read More</button>
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<footer>
+    <div class="logo_main">
+        <img src="images/footer-logo.png" class="img-fluid">
+        <h2>Evolution in Technology</h2>
+    </div>
+    <ul class="nav justify-content-center f_nav">
+        <li class="nav-item">
+            <a href="#" class="nav-link f_nav-link"><span><img src="images/pin.svg"></span> Elysium Villa Park, Coimbatore</a>
+        </li>
+        <li class="nav-items">
+            <a href="#" class="nav-link f_nav-link"><span><img src="images/f_call.svg"></span>+91 98943 60205</a>
+        </li>
+        <li class="nav-items">
+            <a href="#" class="nav-link f_nav-link"><span><img src="images/fmail.svg"></span> sales@rapidevcharge.com</a>
+        </li>
+        <li class="nav-items">
+            <a href="#" class="nav-link f_nav-link"><span><img src="images/fmail.svg"></span>support@rapidevcharge.com</a>
+        </li>
+    </ul>
+    <ul class="social nav justify-content-center">
+        <li class="nav-item">
+            <a href="" class="nav-link s_item"><i class="fab fa-facebook-f"></i></a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link s_item"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link s_item"><i class="fab fa-instagram"></i></a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link s_item"><i class="fab fa-whatsapp"></i></a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link s_item"><i class="fab fa-linkedin-in"></i></a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link s_item"><i class="fab fa-youtube"></i></a>
+        </li>
+    </ul>
+</footer>
+<div class="copyright">Copyright © 2021 Fenfeo, All Rights Reserved.</div>
+
+
+
+
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.js"></script>
+    <script>
+        window.onscroll = function () {
+            myFunction()
+        };
+
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+</body>
+
+</html>

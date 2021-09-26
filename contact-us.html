@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-Us</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="px-4 py-2 border-bottom">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link c_info" href="#"><span class="c_icon"><img src="images/call.svg"></span>+91 9894360205</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link c_info" href="#"><span class="c_icon"><img src="images/mail.svg"></span>sales@rapidevcharge.com</a>
+            </li>
+            <div class="social ml-auto">
+                <li class="nav-item">
+                    <a href="" class="nav-link s_item"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link s_item"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link s_item"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link s_item"><i class="fab fa-whatsapp"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link s_item"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link s_item"><i class="fab fa-youtube"></i></a>
+                </li>
+            </div>
+        </ul>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg align-items-center shadow-lg top-nav " id="myHeader">
+        <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon m-screen-1" for="menu-btn"><span class="navicon"></span></label>
+        <div class="collapse navbar-collapse justify-content-center menu" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="product.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Solutions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Resources</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact-us.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <!-- <div class="justify-content-end" id="navbarNav"> -->
+        <ul class="navbar-nav m_screen">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Locate Charger</a>
+            </li>
+            <li class="nav-item">
+                <a onclick="document.getElementById('id01').style.display='block'" class="nav-link">Login</a>
+            </li>
+            <div id="id01" class="modal">
+                <form class="modal-content animate container" action="/action_page.php" method="post">
+                  <div class="logo">
+                      <img src="images/logo.png">
+                  </div>
+                  <span onclick="document.getElementById('id01').style.display='none'" class="closebtn" title="Close Modal">&times;</span> 
+                  
+                    <label for="uname"><b class="usname">Username</b></label>
+                    <input type="text" class="loginp"  placeholder="Enter Username" name="uname" required>
+              
+                    <label for="psw"><b class="usname">Password</b></label>
+                    <input type="password"  class="loginp" placeholder="Enter Password" name="psw" required>
+                      
+                    <button class="lbutton read-more" type="submit">Login</button>
+                    <label>
+                      <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                      <a href="index.html" class="nav-link font-weight-bold">Forgot password?</a>
+                      <p>Not a member? <a class="nav-link font-weight-bold" href="#">Sign Up</a></p>
+                </form>
+            </div>
+        </ul>
+    </nav>
+
+
+    <section class="container ped">      
+        <form>
+            <h1>Online Enquiry</h1>
+            <div class="line mt-3 mb-5"></div>
+            <div class="row">
+                <div class="col-md col-12">
+                  <input type="text" class="form-control" placeholder="Name">
+                </div>
+                <div class="col-md col-12">
+                  <input type="text" class="form-control mt-4 mt-md-0" placeholder="Email">
+                </div>
+            </div>
+            <div class="row my-4">
+                <div class="col-md col-12">
+                  <input type="text" class="form-control" placeholder="Phone">
+                  <div>
+                      <input type="tel" class="form-control my-4" placeholder="Address">
+                  </div>
+                </div>
+                <div class="col-md col-12">
+                  <textarea name="" id="" placeholder="Message"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <button class="read-more btn-block" type="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <section class="container ped">
+        <div class="row justify-content-around">
+            <div class="col-md-6 my-4">
+                <div class="map">
+                    <h2>Registered Office</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d340994.7097284051!2d77.0065643211338!3d11.083247336982733!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4eb9c326a7d3eaa4!2sElysium%20Villa%20Park!5e0!3m2!1sen!2sin!4v1619950160817!5m2!1sen!2sin" width="100%" height="450" style="border:0; border-radius: 20px;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="m_detail">
+                    <ul class="navbar-nav">
+                        <li><span class="building"></span><span class="l_detail font-weight-bold">FENFEO AUTOMATION PRIVATE LIMITED</span></li>
+                        <li><span class="location"></span><span class="l_detail">Villa No. 7,Elysium Villa Park, Karupparayan Palayam, Mylampatti Post,Coimbatore – 641 062, India.</span></li>
+                        <li>
+                            <a href="#" class="f_nav-link"><span><img src="images/f_call.svg"></span>0422 – 2975205</a>
+                        </li>
+                        <li>
+                            <a href="#" class="f_nav-link"><span><img src="images/f_call.svg"></span>+91 98943 60205</a>
+                        </li>
+                        <li>
+                            <a href="#" class="f_nav-link"><span><img src="images/fmail.svg"></span>sales@rapidevcharge.com</a>
+                        </li>
+                        <li>
+                            <a href="#" class="f_nav-link"><span class="pt-2"><img src="images/web.svg"></span>www.fenfeo.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 my-4">
+                <div class="map">
+                    <h2>IT Operations</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d497575.37151602504!2d80.200253!3d13.016074!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd0bb9c330de8c24f!2sDhwarco%20-%20Co%20working%20Space%20in%20Guindy%20-%20Plot%20No%2012c%2F1-%7C%20Chennai!5e0!3m2!1sen!2sin!4v1619956719650!5m2!1sen!2sin" width="100%" height="450" style="border:0; border-radius: 20px;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="m_detail">
+                    <ul class="navbar-nav">
+                        <li><span class="building"></span><span class="l_bulding font-weight-bold">FENFEO AUTOMATION PRIVATE LIMITED</span></li>
+                        <li><span class="location"></span><span class="l_detail">Dhwarco Business Center,Plot No. 12/C, 3rd Cross Street,South Phase Industrial Estate, Guindy, Chennai – 600 032, India.</span></li>
+                        <li>
+                            <a href="#" class="f_nav-link"><span><img src="images/f_call.svg"></span>+91 87547 02796</a>
+                        </li>
+                        <li>
+                            <a href="#" class="f_nav-link"><span><img src="images/fmail.svg"></span>support@rapidevcharge.com </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<footer>
+    <div class="logo_main">
+        <img src="images/footer-logo.png" class="img-fluid">
+        <h2>Evolution in Technology</h2>
+    </div>
+    <ul class="nav justify-content-center f_nav">
+        <li class="nav-item">
+            <a href="#" class="nav-link f_nav-link"><span><img src="images/pin.svg"></span> Elysium Villa Park, Coimbatore</a>
+        </li>
+        <li class="nav-items">
+            <a href="#" class="nav-link f_nav-link"><span><img src="images/f_call.svg"></span>+91 98943 60205</a>
+        </li>
+        <li class="nav-items">
+            <a href="#" class="nav-link f_nav-link"><span><img src="images/fmail.svg"></span> sales@rapidevcharge.com</a>
+        </li>
+        <li class="nav-items">
+            <a href="#" class="nav-link f_nav-link"><span><img src="images/fmail.svg"></span>support@rapidevcharge.com</a>
+        </li>
+    </ul>
+    <ul class="social nav justify-content-center">
+        <li class="nav-item">
+            <a href="" class="nav-link s_item"><i class="fab fa-facebook-f"></i></a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link s_item"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link s_item"><i class="fab fa-instagram"></i></a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link s_item"><i class="fab fa-whatsapp"></i></a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link s_item"><i class="fab fa-linkedin-in"></i></a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link s_item"><i class="fab fa-youtube"></i></a>
+        </li>
+    </ul>
+</footer>
+<div class="copyright">Copyright © 2021 Fenfeo, All Rights Reserved.</div>
+
+
+
+
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.js"></script>
+    <script>
+        window.onscroll = function () {
+            myFunction()
+        };
+
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+</body>
+
+</html>
